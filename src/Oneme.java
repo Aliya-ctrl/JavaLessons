@@ -11,5 +11,13 @@ public class Oneme {
         Cat meow = new Cat();
         meow.AllData(" Пушок",15," Белый"," 18");
         System.out.println(meow.getALL_DAta());
+
+        Gopher cyclik = new Gopher();
+        cyclik.AllData("Жора",8,"Коричневый","30");
+        System.out.println(cyclik.getALL_DAta());
+
+        Giraffe zhiraf = new Giraffe();
+        zhiraf.AllData("Арсений",1100,"Коричневый","600");
+        System.out.println(zhiraf.getALL_DAta());
     }
 }
